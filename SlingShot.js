@@ -24,7 +24,7 @@ class Slingshot{
         var pointB = this.pointB;
         
         strokeWeight(4);
-        stroke("turquoise");
+        stroke("teal");
         line(pointA.x, pointA.y, pointB.x, pointB.y);
         }
         }

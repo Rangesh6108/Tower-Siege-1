@@ -64,16 +64,17 @@ function setup() {
 
 }
 function draw() {
-  background(56,44,44); 
+  background("tan"); 
  
   //Engine.update(engine);
   
   ground.display();
+  fill("maroon");
   stand1.display();
   stand2.display();
   strokeWeight(2);
   stroke(15);
-  fill("skyblue");
+  fill("cornsilk");
   block1.display();
   block2.display();
   block3.display();
@@ -81,31 +82,31 @@ function draw() {
   block5.display();
   block6.display();
   block7.display();
-  fill("pink");
+  fill("sandybrown");
   block8.display();
   block9.display();
   block10.display();
   block11.display();
   block12.display();
-  fill("turquoise");
+  fill("peru");
   block13.display();
   block14.display();
   block15.display();
-  fill("grey");
+  fill("rosybrown");
   block16.display();
-  fill("skyblue");
+  fill("lime");
   blocks1.display();
   blocks2.display();
   blocks3.display();
   blocks4.display();
   blocks5.display();
-  fill("turquoise");
+  fill("lightseagreen");
   blocks6.display();
   blocks7.display();
   blocks8.display();
-  fill("pink")
+  fill("mediumaquamarine")
   blocks9.display();
-  fill("gold");
+
   imageMode(CENTER)
   image(polygon_img ,polygon.position.x,polygon.position.y,40,40);
 
